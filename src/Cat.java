@@ -29,6 +29,6 @@ class Cat {
         System.out.println("Cat Name: " + name);
         System.out.println("Age: " + age + " years");
         System.out.println("Breed: " + breed);
-        System.out.println("Weight: " + weight);
+        System.out.println("Weights: " + weight);
     }
 }
