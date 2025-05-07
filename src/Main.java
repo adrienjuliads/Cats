@@ -21,8 +21,12 @@ public class Main {
         System.out.print("Enter what the cat is eating: ");
         String food = scanner.nextLine();
 
+        System.out.print("Enter cat's gender: ");
+        String gender = scanner.nextLine();
+
+
 // Create and use the Cat object
-        Cat userCat = new Cat(name, age, breed);
+        Cat userCat = new Cat(name, age, breed, gender);
         System.out.println("\n--- Cat Information ---");
         userCat.displayInfo();
         userCat.meow();
