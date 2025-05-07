@@ -21,16 +21,25 @@ public class Main {
         System.out.print("Enter what the cat is eating: ");
         String food = scanner.nextLine();
 
+<<<<<<< HEAD
         System.out.print("Enter cat's gender: ");
         String gender = scanner.nextLine();
 
 
 // Create and use the Cat object
         Cat userCat = new Cat(name, age, breed, gender);
+=======
+        System.out.print("Enter the cat's weight: ");
+        int weight = scanner.nextInt();
+
+// Create and use the Cat object
+        Cat userCat = new Cat(name, age, breed, weight);
+>>>>>>> origin/Marga
         System.out.println("\n--- Cat Information ---");
         userCat.displayInfo();
         userCat.meow();
         userCat.eat(food);
+        userCat.eat(String.valueOf(weight));
 
         scanner.close();
     }
