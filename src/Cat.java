@@ -7,7 +7,7 @@ class Cat {
     private String gender;
 
     // Constructor
-    public Cat(String name, int age, String breed,String personality, String gender) {
+    public Cat(String name, int age, String breed,String personality) {
         this.name = name;
         this.age = age;
         this.breed = breed;
@@ -28,7 +28,7 @@ class Cat {
     public void displayInfo() {
         System.out.println("Cat Name: " + name);
         System.out.println("Age: " + age + " years");
-        System.out.println("Breed: " + breed);
+        System.out.println("Breeds: " + breed);
         System.out.println("Personality: " + personality);
         System.out.println("Gender: " + gender);
 
