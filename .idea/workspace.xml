@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d63222fb-a651-43bb-a101-8eb91368de31" name="Changes" comment="meow personality">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+    <list default="true" id="d63222fb-a651-43bb-a101-8eb91368de31" name="Changes" comment="Meow gender">
+>>>>>>> 68f5dbdbd42f5a0ca6d47df98f9726fea69ab408
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -38,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "onboarding.tips.debug.path": "C:/Users/2302482/IdeaProjects/CATS/src/Main.java"
   }
 }]]></component>
@@ -51,19 +55,27 @@
       <option name="presentableId" value="Default" />
       <updated>1746602698394</updated>
     </task>
-    <task id="LOCAL-00001" summary="meow personality">
+    <task id="LOCAL-00001" summary="Meow gender">
       <option name="closed" value="true" />
-      <created>1746605826832</created>
+      <created>1746605824811</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1746605826832</updated>
+      <updated>1746605824811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Meow gender">
+      <option name="closed" value="true" />
+      <created>1746607945885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746607945885</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="meow personality" />
-    <option name="LAST_COMMIT_MESSAGE" value="meow personality" />
+    <MESSAGE value="Meow gender" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meow gender" />
   </component>
 </project>
