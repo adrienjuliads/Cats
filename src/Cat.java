@@ -5,7 +5,7 @@ class Cat {
     private String breed;
     private String personality;
 <<<<<<< HEAD
-    private String color;
+    private String colors;
 =======
     private String gender;
 >>>>>>> 68f5dbdbd42f5a0ca6d47df98f9726fea69ab408
@@ -35,7 +35,7 @@ class Cat {
         System.out.println("Breeds: " + breed);
         System.out.println("Personality: " + personality);
 <<<<<<< HEAD
-        System.out.println("Color: " + color);
+        System.out.println("Color: " + colors);
 
 =======
         System.out.println("Gender: " + gender);
