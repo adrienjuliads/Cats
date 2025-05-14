@@ -7,7 +7,7 @@ class Cat {
     private String gender;
 
     // Constructor
-    public Cat(String name, int age, String breed,String personality) {
+    public Cat(String name, int age, String breed,String personality, String gender) {
         this.name = name;
         this.age = age;
         this.breed = breed;
