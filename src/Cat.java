@@ -4,13 +4,15 @@ class Cat {
     private int age;
     private String breed;
     private String personality;
+    private String color;
 
     // Constructor
-    public Cat(String name, int age, String breed,String personality) {
+    public Cat(String name, int age, String breed,String personality, String color) {
         this.name = name;
         this.age = age;
         this.breed = breed;
         this.personality = personality;
+        this.color = color;
 
     }
 
@@ -28,6 +30,8 @@ class Cat {
         System.out.println("Age: " + age + " years");
         System.out.println("Breeds: " + breed);
         System.out.println("Personality: " + personality);
+        System.out.println("Color: " + color);
+
 
     }
 }
