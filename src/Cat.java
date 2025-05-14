@@ -5,7 +5,6 @@ class Cat {
     private String breed;
     private String personality;
 
-    private String colors;
 
     private String genders;
     private String cat;
@@ -37,7 +36,6 @@ class Cat {
         System.out.println("Breeds: " + breed);
         System.out.println("Personality: " + personality);
 
-        System.out.println("Color: " + colors);
 
 
         System.out.println("Gender: " + genders);
