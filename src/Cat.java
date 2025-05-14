@@ -7,7 +7,7 @@ class Cat {
 
     private String colors;
 
-    private String gender;
+    private String genders;
 
 
     // Constructor
@@ -16,7 +16,7 @@ class Cat {
         this.age = age;
         this.breed = breed;
         this.personality = personality;
-        this.gender = gender;
+        this.genders = genders;
 
     }
 
@@ -38,7 +38,7 @@ class Cat {
         System.out.println("Color: " + colors);
 
 
-        System.out.println("Gender: " + gender);
+        System.out.println("Gender: " + genders);
 
     }
 }
