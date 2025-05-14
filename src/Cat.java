@@ -8,15 +8,17 @@ class Cat {
     private String colors;
 
     private String genders;
+    private String cat;
 
 
     // Constructor
-    public Cat(String name, int age, String breed,String personality) {
+    public Cat(String name, int age, String breed,String personality, String cat) {
         this.name = name;
         this.age = age;
         this.breed = breed;
         this.personality = personality;
         this.genders = genders;
+        this.cat = cat;
 
     }
 
@@ -39,6 +41,8 @@ class Cat {
 
 
         System.out.println("Gender: " + genders);
+        System.out.println("Cat: " + cat);
+
 
     }
 }
