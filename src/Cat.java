@@ -7,12 +7,11 @@ class Cat {
     private String color;
 
     // Constructor
-    public Cat(String name, int age, String breed,String personality, String color) {
+    public Cat(String name, int age, String breed,String personality) {
         this.name = name;
         this.age = age;
         this.breed = breed;
         this.personality = personality;
-        this.color = color;
 
     }
 

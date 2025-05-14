@@ -24,13 +24,11 @@ public class Main {
         System.out.print("Enter cat's personality: ");
         String personality = scanner.nextLine();
 
-        System.out.print("Enter cat's color: ");
-        String color = scanner.nextLine();
 
 
 
 // Create and use the Cat object
-        Cat userCat = new Cat(name, age, breed, personality, color);
+        Cat userCat = new Cat(name, age, breed, personality);
         System.out.println("\n--- Cat Information ---");
         userCat.displayInfo();
         userCat.meow();
